@@ -244,31 +244,3 @@ int main(int argc,char **argv)
 	}
 	return 0;
 }
-/*/
-// inserting into a string
-#include <iostream>
-#include <string>
-#include <time.h>
-#include <cstdio>
-#include <stdio.h>
-
-
-int main()
-{
-	srand((unsigned)time(0));
-	std::string str = "AMDRyzen";
-	for (int i = 0; i<str.size(); i++)
-	{
-		if ((i % 2))
-		{
-			str.insert(i, 1, getRandomChar());
-		}
-	}
-
-
-	// it = str.insert(str.begin()+5,','); // to be(,) not to be: that is the question
-
-	std::cout << str << '\n';
-	return 0;
-}
-*/
